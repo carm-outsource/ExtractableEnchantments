@@ -1,6 +1,15 @@
 name: ExtractableEnchantments
 main: mc.rellox.extractableenchantments.ExtractableEnchantments
-softdepend: [ Vault, eco, ExcellentEnchants, EcoEnchants, vane-core, AdvancedEnchantments, EnchantsSquared, CrazyEnchantments , MMOItems ]
+softdepend:
+  - Vault
+  - eco
+  - ExcellentEnchants
+  - EcoEnchants
+  - vane-core
+  - AdvancedEnchantments
+  - EnchantsSquared
+  - CrazyEnchantments
+  - MMOItems
 api-version: 1.14
 version: 12.1
 author: Rellox
@@ -38,3 +47,24 @@ permissions:
   ee.dust.craft.default:
     description: Allow players to craft default dust
     default: true
+
+website:
+database: false
+load: STARTUP
+depend:
+  -
+
+awareness:
+  -
+
+default-permission: true
+prefix:
+loadbefore:
+  -
+
+libraries:
+  -
+
+description:
+authors:
+  -
