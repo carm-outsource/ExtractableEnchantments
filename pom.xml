@@ -31,6 +31,14 @@
       <id>crazycrew-releases</id>
       <url>https://repo.crazycrew.us/releases</url>
     </repository>
+    <repository>
+      <id>phoenix</id>
+      <url>https://nexus.phoenixdevt.fr/repository/maven-public/</url>
+    </repository>
+    <repository>
+      <id>rosewood-repo</id>
+      <url>https://repo.rosewooddev.io/repository/public/</url>
+    </repository>
   </repositories>
   	
   <dependencies>
@@ -62,6 +70,19 @@
       <groupId>com.badbones69.crazyenchantments</groupId>
       <artifactId>crazyenchantments-paper-api</artifactId>
       <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.lumine</groupId>
+      <artifactId>MythicLib-dist</artifactId>
+      <version>1.6.2-SNAPSHOT</version>
+      <scope>provided</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>net.Indyuce</groupId>
+      <artifactId>MMOItems-API</artifactId>
+      <version>6.9.5-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

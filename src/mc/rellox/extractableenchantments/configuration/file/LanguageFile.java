@@ -42,7 +42,7 @@ public final class LanguageFile extends AbstractFile {
 		put("Price.experience-levels.not-enough", "<#800000>(!) <#ff8000>Not enough experience levels!");
 		put("Price.experience-levels.value", "%price% Experience Levels");
 		put("Price.materials.not-enough", "<#800000>(!) <#ff8000>Not enough materials!");
-		put("Price.materials.value", "%price% × %material%");
+		put("Price.materials.value", "%price% Ã— %material%");
 		put("Price.economy.not-enough", "<#800000>(!) <#ff8000>Insufficient funds!");
 		put("Price.economy.value", "$%price%");
 

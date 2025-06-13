@@ -68,8 +68,8 @@ public final class Text {
 	public static String color(String hex) {
 		if(hex == null || hex.isEmpty() == true) return "";
 		if(hex.charAt(0) == '#') hex = hex.substring(1);
-		String s = "งx";
-		for(char c : hex.toCharArray()) s += "ง" + c;
+		String s = "ยงx";
+		for(char c : hex.toCharArray()) s += "ยง" + c;
 		return s;
 	}
 	
